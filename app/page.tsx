@@ -96,15 +96,15 @@ const jobCategories = [
     name: "Haushalt",
     icon: Home,
     subCategories: [
-      { name: "Reinigung", icon: Broom },
+      { name: "Reinigung", icon: Home },
       { name: "Kochen", icon: Utensils },
       { name: "Badezimmerreinigung", icon: Bath },
       { name: "Bettwäsche wechseln", icon: Bed },
-      { name: "Möbelpflege", icon: Couch },
-      { name: "Fensterreinigung", icon: Window },
+      { name: "Möbelpflege", icon: Sofa },
+      { name: "Fensterreinigung", icon: Home },
       { name: "Wäsche waschen", icon: Shirt },
-      { name: "Gartenarbeit", icon: Tree },
-      { name: "Haustierpflege", icon: Paw },
+      { name: "Gartenarbeit", icon: Home },
+      { name: "Haustierpflege", icon: Cat },
       { name: "Einkaufen", icon: ShoppingCart }
     ]
   },
@@ -189,6 +189,7 @@ function MapCenterUpdater({ setMapCenter }) {
   return null;
 }
 
+/* eslint-disable @typescript-eslint/no-unused-vars */
 export default function ResponsiveDesktopApp() {
   const [loading, setLoading] = useState(true)
   const [showIcons, setShowIcons] = useState(false)
@@ -937,3 +938,4 @@ export default function ResponsiveDesktopApp() {
     </div>
   )
 }
+/* eslint-enable @typescript-eslint/no-unused-vars */
