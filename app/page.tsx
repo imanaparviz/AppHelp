@@ -13,13 +13,10 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Label } from "@/components/ui/label"
 import { 
-  Hammer, Wrench, Truck, PaintBucket, Laptop, Search, ChevronRight, User, Plus, ArrowLeft, 
-  MessageSquare, Calendar, Star, MapPin, Send, ChevronDown, ChevronUp, Menu, Moon, Sun, 
-  Book, Briefcase, Home, Scissors, Car, Heart, Trash2, Utensils, ShowerHead, Bed, Sofa, 
-  Dog, ShoppingBag, Shirt, Map, Wind, Droplet, Flower2, Cog, LogIn, GraduationCap, 
-  Languages, Music, Monitor, Palette, Calculator, Megaphone, Scale, Database, UserPlus, 
-  Broom, Cooker, Bath, Couch, Window, Waves, Tree, Paw, BaggageClaim, Zap, Ruler, Plane, 
-  ShoppingCart, Stethoscope, Baby, Cat
+  Hammer, Wrench, Truck, PaintBucket, Laptop, Search, User, MessageSquare, Calendar, Send, Menu, Moon, Sun, 
+  Book, Briefcase, Home, Scissors, Car, Heart, Utensils, Bed, Sofa, ShoppingBag, Shirt, Map, Scale, 
+  Calculator, Megaphone, UserPlus, Bath, GraduationCap, Languages, Music, Monitor, Palette, Plane, 
+  ShoppingCart, Stethoscope, Baby, Cat, ArrowLeft, LogIn
 } from 'lucide-react'
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
