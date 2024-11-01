@@ -16,7 +16,7 @@ import {
   Hammer, Wrench, Truck, PaintBucket, Laptop, Search, User, MessageSquare, Calendar, Send, Menu, Moon, Sun, 
   Book, Briefcase, Home, Scissors, Car, Heart, Utensils, Bed, Sofa, ShoppingBag, Shirt, Map, Scale, 
   Calculator, Megaphone, UserPlus, Bath, GraduationCap, Languages, Music, Monitor, Palette, Plane, 
-  ShoppingCart, Stethoscope, Baby, Cat, ArrowLeft, LogIn
+  ShoppingCart, Stethoscope, Baby, Cat, ArrowLeft, LogIn, Zap, Ruler
 } from 'lucide-react'
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
